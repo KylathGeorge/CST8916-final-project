@@ -20,7 +20,7 @@
 
 ### 3. Web Dashboard Repository
 
-- **URL:** <https://github.com/yourusername/rideau-canal-dashboard>
+- **URL:** <https://github.com/KylathGeorge/rideau-canal-dashboard>
 - **Description:** Web dashboard application
 
 ## Demo
