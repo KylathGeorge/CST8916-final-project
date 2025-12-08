@@ -34,3 +34,12 @@ The National Capital Commission needs a real-time data streaming and visualizati
 4. Archive historical data in Azure Blob Storage for long-term retention and analysis.
 
 5. Present live data through a web dashboard hosted on Azure App Service for real-time monitoring.
+
+## System Architecture
+
+### Diagram
+
+### Data flow explanation
+
+### Azure Services used
+
