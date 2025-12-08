@@ -22,10 +22,10 @@ The National Capital Commission needs a real-time data streaming and visualizati
 
 1. Simulate IoT sensors at three locations—Dow's Lake, Fifth Avenue, and the National Arts Centre (NAC)—to monitor:
 
-- Ice Thickness (cm)
-- Surface Temperature (°C)
-- Snow Accumulation (cm)
-- External Temperature (°C)
+   - Ice Thickness (cm)
+   - Surface Temperature (°C)
+   - Snow Accumulation (cm)
+   - External Temperature (°C)
 
 2. Process sensor data in real-time using Azure Stream Analytics with 5-minute aggregation windows.
 
