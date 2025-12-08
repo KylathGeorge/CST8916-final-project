@@ -39,6 +39,8 @@ The National Capital Commission needs a real-time data streaming and visualizati
 
 ### Diagram
 
+![image info](./architecture/remotedataarchitecture.png)
+
 ### Data flow explanation
 
 ### Azure Services used
