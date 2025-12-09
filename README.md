@@ -115,3 +115,12 @@ It was a challenge to create the query needed as I had some issues with the time
 ## AI Tools Disclosure
 
 AI was used to help create and debug the query for Azure Stream Analytics, as well as debug the python code for issues with simulating data.
+
+## AI Tools Used
+
+- **Tool:** ChatGPT
+
+- **Purpose:** Query generation, debugging some issues.
+
+- **Extent:** AI was used to help create and debug the query for Azure Stream Analytics, as well as debug the python code for issues with simulating data such as timestamps with microseconds causing issues.
+  
