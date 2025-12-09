@@ -39,7 +39,7 @@ The National Capital Commission needs a real-time data streaming and visualizati
 
 ### Diagram
 
-![image info](/architecture/remote_data_architecture.png)
+![image info](/CST8916-final-project/Architecture/remote_data_architecture.png)
 
 ### Data flow explanation
 
