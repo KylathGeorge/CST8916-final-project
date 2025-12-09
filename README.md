@@ -39,11 +39,21 @@ The National Capital Commission needs a real-time data streaming and visualizati
 
 ### Diagram
 
-![image info](/CST8916-final-project/Architecture/remote_data_architecture.png)
+![image info](Architecture/remote_data_architecture.png)
 
 ### Data flow explanation
 
-Looking at the data flow from this diagram, we have 3 IoT devices which are transmitting data each from a different location. These devices are managed by the Azure IoT hub and the data stream from each of the devices are streamed to Azure Stream Analytics. Once the data is processed, it is then moved to two different services: Azure Blob Storage and Azure Cosmos DB. Data is stored in blob storage aggregated by the date and time in a JSON format. 
+Looking at the data flow from this diagram, we have 3 IoT devices which are transmitting data each from a different location. These devices are managed by the Azure IoT hub and the data stream from each of the devices are streamed to Azure Stream Analytics. Once the data is processed, it is then moved to two different services: Azure Blob Storage and Azure Cosmos DB. Data is stored in blob storage aggregated by the date and time in a JSON format. The data is also stored in an Azure Cosmos DB and accessed by the front end web service using Azure App Service.
 
 ### Azure Services used
+
+- Azure IoT Hub
+- Azure Stream Analytics
+- Azure Storage accounts/Blob Storage
+- Azure Cosmos DB
+- Azure App Services
+
+## Implementation Overview
+
+IoT Sensor Simulation: <https://github.com/KylathGeorge/rideau-canal-sensor-simulation>
 
