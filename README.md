@@ -57,3 +57,16 @@ Looking at the data flow from this diagram, we have 3 IoT devices which are tran
 
 IoT Sensor Simulation: <https://github.com/KylathGeorge/rideau-canal-sensor-simulation>
 
+## Video Demonstration
+
+## Setup Instructions
+
+## Results and Analysis
+
+## Challenges and Solutions
+
+It was a challenge to create the query needed as I had some issues with the time format not writing into the Cosmos DB as well as not realizing my query variables did not match the variables in the backend, however both issues were resolved.
+
+## AI Tools Disclosure
+
+AI was used to help create and debug the query for Azure Stream Analytics, as well as debug the python code for issues with simulating data.
