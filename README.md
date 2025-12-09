@@ -43,5 +43,7 @@ The National Capital Commission needs a real-time data streaming and visualizati
 
 ### Data flow explanation
 
+Looking at the data flow from this diagram, we have 3 IoT devices which are transmitting data each from a different location. These devices are managed by the Azure IoT hub and the data stream from each of the devices are streamed to Azure Stream Analytics. Once the data is processed, it is then moved to two different services: Azure Blob Storage and Azure Cosmos DB. Data is stored in blob storage aggregated by the date and time in a JSON format. 
+
 ### Azure Services used
 
