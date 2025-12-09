@@ -108,6 +108,10 @@ IoT Sensor Simulation: <https://github.com/KylathGeorge/rideau-canal-sensor-simu
 
     ![DashboardAppService](Screenshots/dashboard_app_service.png)
 
+I did not notice any big issues in terms of performance, when the simulation and stream analytics job was started, a spike in CPU and Memory utilization was observed as well as a 6.14 second watermark delay. However this dropped afterwards to about half of its original value for CPU usage and watermark delay.
+
+The biggest issue was having a working query, there was some time spent debugging because I had one of the query fields named wrong and only some of the metrics was showing up on the dashboard. I also had an issue where app service would not display the dashboard, but re-creating the app service worked for some reason.
+
 ## Challenges and Solutions
 
 It was a challenge to create the query needed as I had some issues with the time format not writing into the Cosmos DB as well as not realizing my query variables did not match the variables in the backend, however both issues were resolved.
