@@ -61,6 +61,17 @@ IoT Sensor Simulation: <https://github.com/KylathGeorge/rideau-canal-sensor-simu
 
 ## Setup Instructions
 
+1. Setup Azure IoT Hub with 3 devices, Azure Blob Storage and Cosmos DB.
+2. Deploy Dashboard to Azure App Service with environment variables set as shown in `.env.example`.
+3. Have environment variables set up in Azure
+4. Install Python and run `python sensor_simulation.py` in the simulation directory to run it locally following the `.env.example` file for env variables.
+5. Install Node.js and run the following in the web dashboard directory:
+
+    ```command
+        npm install
+        node server.js
+    ```
+
 ## Results and Analysis
 
 ## Challenges and Solutions
