@@ -74,6 +74,40 @@ IoT Sensor Simulation: <https://github.com/KylathGeorge/rideau-canal-sensor-simu
 
 ## Results and Analysis
 
+1. IoT Hub with 3 registered devices
+
+    ![IoThub](Screenshots/IoT_hub_devices.png)
+
+2. IoT Hub metrics showing messages received
+
+    ![IoThubmessages](Screenshots/IoT_hub_messages_sent.png)
+
+3. Stream Analytics query editor with your query
+
+    ![queryeditorpart1](Screenshots/query_editor_part_1.png)
+
+    ![queryeditorpart2](Screenshots/query_editor_part_2.png)
+
+4. Stream Analytics job in "Running" state
+
+    ![streamanalyticsrunning](Screenshots/stream_analytics_running.png)
+
+5. Cosmos DB Data Explorer with sample documents
+
+    ![cosmosdbwithdocuments](Screenshots/cosmos_db_with_documents.png)
+
+6. Blob Storage container with archived files
+
+    ![Blobstorage](Screenshots/blob_storage.png)
+
+7. Dashboard running locally (showing live data)
+
+    ![Dashboardlocal](Screenshots/dashboard_local.png)
+
+8. Dashboard deployed on Azure App Service
+
+    ![DashboardAppService](Screenshots/dashboard_app_service.png)
+
 ## Challenges and Solutions
 
 It was a challenge to create the query needed as I had some issues with the time format not writing into the Cosmos DB as well as not realizing my query variables did not match the variables in the backend, however both issues were resolved.
