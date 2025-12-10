@@ -25,4 +25,4 @@
 
 ## Demo
 
-- **Video Demo:** [YouTube]
+- **Video Demo:** [YouTube](https://www.youtube.com/watch?v=UhFq0rlXJZQ)

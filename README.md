@@ -59,6 +59,8 @@ IoT Sensor Simulation: <https://github.com/KylathGeorge/rideau-canal-sensor-simu
 
 ## Video Demonstration
 
+Demo video link: [Final Project](https://www.youtube.com/watch?v=UhFq0rlXJZQ)
+
 ## Setup Instructions
 
 1. Setup Azure IoT Hub
